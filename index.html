@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Pulse | City Insights</title>
+  <meta name="description" content="A modern static information website showcasing city statistics, services, and highlights." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top">Urban Pulse</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+      <ul class="nav-links" id="mobileMenu">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#stats">Stats</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content container">
+      <p class="eyebrow">Information Dashboard</p>
+      <h1>Know Your City,<br />Before It Moves.</h1>
+      <p class="lead">
+        Urban Pulse is a static information website template designed for assignments and public info pages.
+        Fast, accessible, and deployment-ready for AWS.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#overview">Explore Info</a>
+        <a class="btn btn-ghost" href="DEPLOYMENT_GUIDE.md">Deployment Guide</a>
+      </div>
+    </div>
+    <div class="hero-shape"></div>
+  </header>
+
+  <main>
+    <section class="section container" id="overview">
+      <h2>City Overview</h2>
+      <p>
+        This section can contain static details such as population, key sectors, transport links, and key
+        administrative contacts. Replace placeholder text with your assignment-specific content.
+      </p>
+      <div class="grid cards-3">
+        <article class="card">
+          <h3>Population</h3>
+          <p>2.8M residents with 3.1% annual growth in metro expansion zones.</p>
+        </article>
+        <article class="card">
+          <h3>Economy</h3>
+          <p>Technology, manufacturing, tourism, and logistics are top revenue drivers.</p>
+        </article>
+        <article class="card">
+          <h3>Transit</h3>
+          <p>4 metro lines, 220 bus routes, and integrated smart-ticket infrastructure.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <h2>Public Services</h2>
+        <div class="grid cards-2">
+          <article class="card feature">
+            <h3>Healthcare Access</h3>
+            <p>18 public hospitals and 120+ neighborhood clinics serving all districts.</p>
+          </article>
+          <article class="card feature">
+            <h3>Education Network</h3>
+            <p>460 government schools and 22 public universities with digital enrollment portals.</p>
+          </article>
+          <article class="card feature">
+            <h3>Emergency Response</h3>
+            <p>Average response time of 7.5 minutes with centralized dispatch systems.</p>
+          </article>
+          <article class="card feature">
+            <h3>Waste & Utilities</h3>
+            <p>Daily collection across all wards with 62% recycling compliance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="stats">
+      <h2>Quick Facts</h2>
+      <div class="grid metrics">
+        <div class="metric">
+          <span class="metric-value">96%</span>
+          <span class="metric-label">Electricity Coverage</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">88%</span>
+          <span class="metric-label">Internet Penetration</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">74%</span>
+          <span class="metric-label">Digital Service Usage</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">31%</span>
+          <span class="metric-label">Green Mobility Share</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-inner">
+      <div>
+        <h2>Urban Pulse</h2>
+        <p>Static Information Website Template</p>
+      </div>
+      <div>
+        <p>Email: citydesk@example.com</p>
+        <p>Helpline: +1 555 0100</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
